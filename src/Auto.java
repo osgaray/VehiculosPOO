@@ -24,4 +24,18 @@ public class Auto extends VehiculoPasajeros {
         super.mostrarInfo();
         System.out.println("Tipo de Combustible: " + tipoDeCombustible);
     }
+
+    // agregar mantenimiento al metodo
+    @Override
+    public void RealizarMantenimiento() {
+        super.RealizarMantenimiento();
+        System.out.println("Para el mantenimiento de este auto se necesita: ");
+        System.out.println("\tReabastecer gasolina");
+        System.out.println("\tLimpiar asientos de pasajeros");
+    }
+
+    public void calcularCostoMantenimiento(double kmrecorrido, double costoporkm){
+        double costoMantenimiento = kmrecorrido * costoporkm;
+        System.out.println(costoMantenimiento+" $");
+    }
 }
