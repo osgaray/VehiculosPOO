@@ -23,4 +23,14 @@ public class Camion extends VehiculoCarga {
         super.mostrarInfo();
         System.out.println("Numero de Ejes: " + numEjes);
     }
+
+    // agregar mantenimiento al metodo
+    @Override
+    public void RealizarMantenimiento() {
+        super.RealizarMantenimiento();
+        System.out.println("Para el mantenimiento de este auto se necesita: ");
+        System.out.println("\tReabastecer disel");
+        System.out.println("\tLimpiar la cabina");
+        System.out.println("\tRevisar amortiguadores");
+    }
 }

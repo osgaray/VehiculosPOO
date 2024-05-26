@@ -54,4 +54,13 @@ public class Vehiculo {
         System.out.println("Kilometraje: " + kilometraje);
 
     }
+
+    // Mantenimiento basico del vehiculo
+    public void RealizarMantenimiento() {
+        System.out.println("Este es el mantenimiento del vehiculo:");
+        System.out.println("\tLimpieza de los filtros");
+        System.out.println("\tLimpieza de los faros");
+        System.out.println("\tCambio de aceite");
+        System.out.println("\tProbar frenos");
+    }
 }

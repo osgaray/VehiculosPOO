@@ -12,5 +12,8 @@ public class App {
 
         System.out.println("\nInformacion del Camion: ");
         camion.mostrarInfo();
+
+        System.out.println("El costo total del mantenimiento: ");
+        auto.calcularCostoMantenimiento(120, 25);
     }
 }
